@@ -10,67 +10,7 @@ body{
     background-color: #ffff;
 }
 
-/* Mobile view */
-
-@media screen and (max-width: 600px){
-
-/* main styles start */
-
-.main-section{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    
-    
- }
- .main-section-img{
-    
- }
- .main-section-img img{
-     width: 100px;
-     height: auto;
- }
- .main-section-tile{
-     margin-top: 15%;
-     justify-content: center;
-     align-items: center;
- }
- .span-redis{
-     color: gray;
- }
- .span-orange{
-     color: orange;
-     font-weight: 700;
- }
- .main-section-tile p{
-     color: gray;
-     font-weight: 400;
-     font-size: 12;
-     text-justify:newspaper;
-     line-break: 1.8;
-     text-align:start;
-     padding-top: 20px;
-     padding-bottom: 20px;
- }
- .btn-2{
-    display: grid;
-    grid-template-columns:(1, 1fr);
-   background:  orange;
-     color: white;
-     border: 0;
-     padding:15px 20px;
-     border-radius: 5px;
-     margin-top: 10px;
- }
-
-}
-  
-
-
-
-/* mobile view end */
-
-
-
+/* background styles start */
 .header{
     background-color: antiquewhite;
     width: 100%;
@@ -143,6 +83,8 @@ body{
 }
 /* Background styles end */
 
+
+
 /* main styles start */
 
 .main-section{
@@ -192,6 +134,10 @@ body{
     border-radius: 5px;
     margin-top: 10px;
 }
+
+/* main styles end */
+
+
    /* features section start */
 .features{
     display: flex;
@@ -244,9 +190,9 @@ body{
     margin-left: -50px;
   
 }
-
-
  /* features section end*/
+
+
 /* facts section styles start */
 .facts-section{
     margin-left: 20%;
@@ -292,6 +238,8 @@ padding-top: 10px;
     margin-top: 20%;
 }
 
+/* facts section styles end */
+
 
 /* logo section style start */
 
@@ -321,7 +269,9 @@ padding-top: 10px;
 }
 /* /* logo section style end */ */
 
+
 /* footet section styles start */
+
 footer{
 
 }
